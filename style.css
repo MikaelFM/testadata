@@ -1,0 +1,72 @@
+#form {
+    width: 25%;
+    height: 4vw;
+    border: solid 1px black;
+    margin: 0 auto;
+}
+#dias, #dias:focus {
+    border: none;
+    height: 93%;
+    width: 80%;
+    float: left;
+    font-size: 3vw;
+    text-align: center;
+}
+#envia {
+    height: 100%;
+    width: 17%;
+    float: right;
+    background-color: rgb(0, 0, 59);
+    border: none;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#envia:hover {
+    background-color: rgb(29, 29, 252);
+}
+#explicar {
+    margin-top: 2vw;
+}
+#explicar div {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+}
+.dia {
+    margin: 0 auto;
+    width: 40%;
+    height: 2vw;
+    border-bottom: 2px solid black;
+}
+.verde {
+    background-color: rgb(225, 247, 225);
+}
+.vermelho {
+    background-color: rgb(247, 225, 225);
+}
+.laranja {
+    background-color: rgb(252, 201, 130);
+}
+.azul {
+    background-color: rgb(130, 173, 252);
+}
+.negrito {
+    font-weight: bold;
+    font-size: 1.6vw;
+}
+.primeiro {
+    border-top: solid 2px black;
+}
+.h1 {
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.p1 {
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+#enviar {
+    font-size: 120%;
+}

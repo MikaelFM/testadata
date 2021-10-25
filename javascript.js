@@ -28,7 +28,7 @@ function vai() {
         }
     }
     if (d.getFullYear() > 2021){
-        alert('Ops... A data de entrega excedeu o ano de 2021. Tente um número mais baixo. 45 no máximo.')
+        alert('Ops... A data de entrega excedeu o ano de 2021. Tente um número mais baixo. 44 no máximo.')
         html = ''
     } else {
         document.getElementById('explicar').innerHTML = html

@@ -28,7 +28,7 @@ function vai() {
         }
     }
     if (d.getFullYear() > 2021){
-        alert('Ops... A data de entrega excedeu o ano de 2021. Tente um número mais baixo. 44 no máximo.')
+        alert('Ops... A data de entrega excedeu o ano de 2021. Tente um número mais baixo.' + diferenca() +'no máximo.')
         html = ''
     } else {
         document.getElementById('explicar').innerHTML = html
@@ -43,4 +43,11 @@ function teclado(e){
 function zoom(){
     const elemento = window.document.getElementById('id-do-elemento');
     window.document.getElementsByClassName('farrapos')[0].style.transform = 'scale(4)'
+}
+function diferenca(){
+    const past = moment(new Date()); // Data de hoje
+    const now = moment("2021-12-30"); // Outra data no passado
+    const duration = moment.duration(now.diff(past));
+    const days = duration.asDays();
+    return days
 }

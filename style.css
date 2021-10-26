@@ -70,3 +70,8 @@
 #enviar {
     font-size: 120%;
 }
+.spinner-border {
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
